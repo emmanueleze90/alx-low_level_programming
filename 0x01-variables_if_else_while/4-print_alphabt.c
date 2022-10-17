@@ -1,19 +1,19 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (success)
- *     */
+ * main - Entry point
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-		char a;
+	char a;
 
-			for (a = 'a'; a <= 'z'; a++)
-					{
-								if (a == 'e' || a == 'q')
-												continue;
-										putchar(a);
-											}
-				putchar('\n');
-					return (0);
+	for (a = 'a'; a <= 'z'; a++)
+	{
+		if (a == 'e' || a == 'q')
+			continue;
+		putchar(a);
+	}
+	putchar('\n');
+	return (0);
 }
