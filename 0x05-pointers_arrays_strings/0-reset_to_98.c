@@ -1,6 +1,5 @@
 #include "main.h"
-// Author By Eng Ismail
-// URL = https://github.com/macaanto14
+// pointer stuff
 /**
  
  * @n: An integer input pointer
